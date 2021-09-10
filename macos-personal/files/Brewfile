@@ -1,0 +1,38 @@
+# specify a directory to install
+cask_args appdir: '/Applications'
+# install packages
+# tap 'caskroom/homebrew-cask' || true
+tap 'homebrew/cask' || true
+# brew 'git'
+brew 'bash-completion'
+brew 'tree'
+brew 'wget'
+# cask 'libreoffice'
+cask 'openoffice'
+# Casks
+# cask 'google-chrome'
+cask 'dropbox'
+# cask 'alfred'
+# cask 'evernote'
+# cask 'flux'
+# cask 'virtualbox'
+# cask 'slack'
+# cask 'spotify'
+cask 'iterm2'
+cask 'transmission'
+cask 'vlc'
+# cask 'calibre'
+# cask 'dash'
+# Brews
+brew "youtube-dl"
+brew "transmission"
+cask "zoom"
+cask "steam"
+# brew "google-chat"  # old version
+# brew "todo"
+# cask "keep"
+## work
+brew "ansible"
+brew "terraform"
+brew "awscli"
+# brew "docker"
